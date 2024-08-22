@@ -1,0 +1,30 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    padding: 20px;
+    top: 0;
+    z-index: 1;
+    height: 50px;
+}
+
+.nav_black{
+    background-color: #111;
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+}
+
+.netflix_log{
+    width: 80px;
+    position: fixed;
+    left: 20px;
+    object-fit: contain;
+}
+
+.netflix_user{
+    position: fixed;
+    width: 50px;
+    right: 20px;
+    object-fit: contain;
+}
